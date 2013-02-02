@@ -71,7 +71,7 @@ if confirm in "Nono":
 else:
     confirm = True
 while confirm:
-    print "Input the player's nickname (no spaces, only players with games):\n"
+    print "Input the player's nickname (no spaces, please, and make sure it matches your hands.txt):\n"
     try:
         newplayer = raw_input()
         players.remove(newplayer)
