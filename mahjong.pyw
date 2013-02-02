@@ -557,13 +557,13 @@ class Houra(object):
             self.limit = "Yakuman Hand"
             self.bp = 8000
         elif self.fan >= 26 and self.fan < 39:
-            self.limit = "Double-Yakuman Hand"
+            self.limit = "Double Yakuman"
             self.bp = 16000
         elif self.fan >= 39 and self.fan < 52:
-            self.limit = "Triple-Yakuman Hand"
+            self.limit = "Triple Yakuman"
             self.bp = 24000
         elif self.fan >= 52:
-            self.limit = "Kasane-Yakuman Hand"
+            self.limit = "Kasane Yakuman"
             self.bp = 32000
                        
         self.koron = roundValue(self.bp*4)
